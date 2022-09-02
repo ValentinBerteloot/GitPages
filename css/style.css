@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{                             
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+header p{
+  padding: .625rem;
+  background-color: #1CD1B0;
+}
+
+main h1{
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  padding: 1.75rem;
+  background-color: #00669F;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+article{
+  position: relative;
+  margin: 9.37rem 0;
+  width: 18.75rem;
+  text-align: center;
+  background-color: #F3F3F3;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: .375rem .31rem .5rem 0rem rgba(0,0,0,0.75);
+}
+
+article div{
+  padding: 1.25rem;
+  height: 12.12rem;
+  background-image: url(../img/bg-Batman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: left;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+article div.hearley{
+  background-image: url(../img/bg-hearley.png);
+}
+
+article div i{
+  font-size: 1.56rem;
+  color: red;
+}
+
+article img{
+  position: absolute;
+  top: 7.81rem;
+  left: 5.62rem;
+  border-radius: 50%;
+  width: 7.81rem;
+}
+
+article h4{
+  margin-top: 4.68rem;
+  text-transform: uppercase;
+  font-size: 1.87rem;
+}
+
+article p{
+  padding: 0.9rem;
+  text-align: left;
+}
+
+article button{
+  margin: 2.18rem 0;
+  border: none;
+  padding: .9rem 2.18rem;
+  color: white;
+  background-color: #00669F;
+}
+footer{
+  background-color: #00669F;
+  color:white;
+  width: 3.18rem;
+  height: 64rem;  
+}
+@media (max-width: 600px){
+header p{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  header{
+    position: fixed;
+    z-index: 2;
+}
+  
+  main h1{
+    text-align: center;
+    position: fixed;
+    top: 2rem;
+    width: 100%;
+   }
+   section{
+    flex-direction: column;
+    align-items: center;
+  }
+  article{
+   
+    margin: 4rem 0; 
+  }
+  footer{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+  }
+
+}
