@@ -92,8 +92,8 @@ article button{
 footer{
   background-color: #00669F;
   color:white;
-  width: 3.18rem;
-  height: 64rem;  
+  width: 100%;
+  height: 2rem; 
 }
 @media (max-width: 600px){
 header p{
